@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Creative Studio landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Easy Type | Profile</title>
+    <link src="assets/imgs/et.png"/>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/creative-studio.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- css -->
+
+
+</head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- navbar -->
+    <nav>
+        <a href="index.html"><img src="assets/imgs/et.png" width="100%"></a>
+        <a href="Login.html">Login</a>
+        <div id="indicator"></div>
+    </nav>
+    <!-- navbar -->
+
+
+    <html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Easy Type</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="wrapper">
+            <input type="text" class="input-field">
+            <div class="content-box">
+                <div class="typing-text">
+                    <p></p>
+                </div>
+                <div class="content">
+                    <ul class="result-details">
+                        <li class="time">
+                            <p>Time Left:</p>
+                            <span><b>60</b>s</span>
+                        </li>
+                        <li class="mistake">
+                            <p>Mistakes:</p>
+                            <span>0</span>
+                        </li>
+                        <li class="wpm">
+                            <p>WPM:</p>
+                            <span>0</span>
+                        </li>
+                        <li class="cpm">
+                            <p>CPM:</p>
+                            <span>0</span>
+                        </li>
+                    </ul>
+                    <button>Try Again</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </body>
+
+    <!-- rules -->
+    <div class="overlay" id="overlayContainer"></div>
+    <div>
+        <button class="openBtn" onclick="openDialog()">Rules</button>
+    </div>
+    <div class="popUpContainer" id="popUp">
+        <button class="closeBtn" onclick="closeDialog()">x</button>
+        <div class="popUpContent">
+            The game start when you starts typing
+            <br>
+            WPM stands for word per minute
+            <br>
+            CPM stands for character per minute
+        </div>
+    </div>
+    <!-- end rules -->
+
+
+    <script src="js/paragraphs.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/rules.js"></script>
+
+    </html>
